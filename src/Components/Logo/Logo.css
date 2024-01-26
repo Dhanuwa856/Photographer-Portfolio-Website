@@ -1,0 +1,41 @@
+.logo {
+  padding-top: 80px;
+  width: 100%;
+  background: #1e1e1e;
+
+}
+
+.logo-main img {
+  width: 60%;
+  position: relative;
+  left: 60%;
+  transform: translateX(-40%);
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.hero-text-line {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  text-wrap: nowrap;
+  gap: 15px;
+  padding: 20px 0;
+
+}
+
+.hero-text-line p {
+  display: flex;
+  gap: 10px;
+  color: #D6D0FB;
+  font-size: 14px;
+  line-height: 150%;
+  /* 21px */
+  text-transform: uppercase;
+}
+
+.hero-text-line p img {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,22 @@
+.menu-link {
+  color: #fff;
+  font-weight: 400;
+  border-right: 0.2px solid rgba(175, 176, 182, 0.3);
+  padding: 15px 20px;
+  transition: .5s;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+.menu-link:last-child {
+  border-right: none;
+}
+
+.menu-link:hover {
+  background: #2f2f37;
+  outline: 0.2px solid rgba(175, 176, 182, 0.3);
+  padding: 15px 20px;
+}

@@ -1,0 +1,35 @@
+.nav-bar {
+  background: #1E1E1E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 45px 0 45px;
+  position: relative;
+}
+
+.nav-menu-links {
+  display: flex;
+
+}
+
+.nav-logo {
+  color: #FFF;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.nav-bar button {
+  border: 0;
+  outline: 0;
+}
+
+.nav-btn {
+  color: #FFF;
+  background: #2f2f37;
+  padding: 10px 15px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: 1px solid rgba(175, 176, 182, 0.3);
+
+}

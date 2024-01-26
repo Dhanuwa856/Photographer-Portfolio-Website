@@ -1,0 +1,27 @@
+.faq {
+  background: #1e1e1e;
+  padding-top: 80px;
+}
+
+.sub-faq p {
+  align-self: stretch;
+  color: #797C86;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sub-faq h2 {
+  align-self: stretch;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+
+.faq-section {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+}

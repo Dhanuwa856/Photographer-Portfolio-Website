@@ -1,0 +1,31 @@
+.portfolio-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.portfolio-text h5 {
+  align-self: stretch;
+  color: #CACACE;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.portfolio-text p {
+  display: flex;
+  gap: 6px;
+  color: #F2F2F3;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.portfolio-card h4 {
+  align-self: stretch;
+  color: #797C86;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}

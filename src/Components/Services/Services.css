@@ -1,0 +1,153 @@
+.services {
+  background: #1E1E1E;
+  padding-top: 80px;
+}
+
+.sub-services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-services-left p {
+  align-self: stretch;
+  color: #797C86;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sub-services-left h2 {
+  align-self: stretch;
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sub-services-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.services-arrow-btns {
+  display: flex;
+  gap: 8px;
+  border: 1px solid rgba(202, 202, 206, 0.2);
+  height: max-content;
+  padding: 3px 6px;
+  border-radius: 70px;
+
+}
+
+.services-arrow-btns span {
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  background: #1c1c21;
+  border: 1px solid rgba(202, 202, 206, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .5s;
+
+}
+
+.services-arrow-btns span:hover {
+  color: #1c1c21;
+  background: #FFF;
+}
+
+.all-btn button {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 8px;
+  border: 1px solid rgba(47, 47, 55, 0.3);
+  background: #1C1C21;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.all-btn button:hover {
+  background: #FFF;
+  color: #1C1C21;
+}
+
+.services-content {
+  margin-top: 60px;
+}
+
+
+.services-content-left h2 {
+  color: #797C86;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.services-content-left h2 img {
+  width: 70px;
+  cursor: pointer;
+}
+
+.services-content-left p {
+  align-self: stretch;
+  color: #797C86;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 10px;
+}
+
+.services-content-left h4 {
+  margin-top: 40px;
+  align-self: stretch;
+  color: #CACACE;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.services-content-left h5 {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  color: #AFB0B6;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  border: 1px solid rgba(202, 202, 206, 0.2);
+  width: 500px;
+  padding: 7px 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.services-content-left h5 img {
+  width: 20px;
+  height: 20px;
+}
+
+.services-content {
+  display: flex;
+  gap: 20px;
+}
+
+.services-content-left,
+.services-content-right {
+  width: 50%;
+}
+
+.services-content-right img {
+  margin-top: 60px;
+}

@@ -1,0 +1,85 @@
+.hero {
+  background: #1E1E1E;
+}
+
+.hero-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+  border-top: 1px solid #1C1C21;
+  border-bottom: 1px solid #1C1C21;
+}
+
+.hero-text-container-center svg {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  stroke-width: 0.2px;
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  fill: #0E0E10;
+  stroke: #1C1C21;
+
+}
+
+.hero-text-container-left p {
+  color: var(--Grey-40, #62646C);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hero-text-container-left h2 {
+  color: #E4E4E6;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero-text-container-right div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-text-container-right div img {
+  width: 60px;
+  cursor: pointer;
+}
+
+.hero-text-container-right h2 {
+  color: #FFF;
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+
+.hero-text-line {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  text-wrap: nowrap;
+  gap: 15px;
+  padding: 20px 0;
+
+}
+
+.hero-text-line p {
+  display: flex;
+  gap: 10px;
+  color: #D6D0FB;
+  font-size: 14px;
+  line-height: 150%;
+  /* 21px */
+  text-transform: uppercase;
+}
+
+.hero-text-line p img {
+  width: 20px;
+  height: 20px;
+}
