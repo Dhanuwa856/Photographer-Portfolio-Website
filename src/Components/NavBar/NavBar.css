@@ -5,10 +5,12 @@
   justify-content: space-between;
   padding: 20px 45px 0 45px;
   position: relative;
+  transition: .5s;
 }
 
 .nav-menu-links {
   display: flex;
+  transition: 1s;
 
 }
 
@@ -21,6 +23,7 @@
 .nav-bar button {
   border: 0;
   outline: 0;
+  background: transparent;
 }
 
 .nav-btn {
@@ -31,5 +34,71 @@
   font-size: 14px;
   font-weight: 500;
   outline: 1px solid rgba(175, 176, 182, 0.3);
+
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  display: none;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.93);
+  padding: 10px;
+  border-top-left-radius: 7px;
+
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  padding: 5px 45px;
+  -webkit-box-shadow: 1px 12px 33px -24px rgba(255, 255, 255, 0.93);
+  -moz-box-shadow: 1px 12px 33px -24px rgba(255, 255, 255, 0.93);
+  box-shadow: 1px 12px 33px -24px rgba(255, 255, 255, 0.93);
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .5s;
+}
+
+.open {
+  display: flex !important;
+}
+
+@media screen and (max-width:750px) {
+  .nav-menu-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    background: #1E1E1E;
+    left: 72%;
+    border: 1px solid rgba(175, 176, 182, 0.3);
+    z-index: 90;
+
+
+  }
+
+  .nav-btn {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 72%;
+  }
+
+  .menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:670px) {
+
+  .nav-btn,
+  .nav-menu-links {
+    left: 65%;
+  }
+
 
 }

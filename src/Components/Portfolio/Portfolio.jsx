@@ -10,7 +10,7 @@ import Portfolio_items from "../Assets/portfolioitem";
 import PortfolioLink from "../PortfolioLink/PortfolioLink";
 const Portfolio = () => {
   return (
-    <div className="container-fluid portfolio">
+    <div className="container-fuild portfolio">
       <div className="container-auto">
         <div className="sub-portfolio">
           <div className="sub-portfolio-left">

@@ -12,7 +12,7 @@ import Star_icon from "../Assets/icon02.png";
 
 const About = () => {
   return (
-    <div className="container-fluid about">
+    <div className="container-fuild about">
       <div className="container-auto">
         <div className="about-sub">
           <div className="about-name">

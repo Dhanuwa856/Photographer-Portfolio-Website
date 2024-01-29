@@ -57,3 +57,11 @@ form {
   background: #2f2f37;
   outline: 0.2px solid rgba(175, 176, 182, 0.3);
 }
+
+@media screen and (max-width:1000px) {
+  .container-auto {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+}

@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="container-fluid footer">
+    <div className="container-fuild footer">
       <div className="container-auto">
         <div className="footer-btn">
           <p>A more meaningful home for photography</p>
@@ -75,7 +75,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="copy-right ">
+        <div className="copy-right">
           © 2024 Damien Braun Photography. All rights reserved.
         </div>
       </div>

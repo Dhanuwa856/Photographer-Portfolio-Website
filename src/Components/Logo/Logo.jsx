@@ -5,7 +5,7 @@ import Icon_img from "../Assets/icon.png";
 
 const Logo = () => {
   return (
-    <div className="container-fluid logo">
+    <div className="container-fuild logo">
       <div className="container-auto logo-main">
         <img src={Img} alt="logo" />
       </div>

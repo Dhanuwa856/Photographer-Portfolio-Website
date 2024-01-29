@@ -12,7 +12,7 @@ import Services_img from "../Assets/services.png";
 
 const Services = () => {
   return (
-    <div className="container-fluid services">
+    <div className="container-fuild services">
       <div className="container-auto">
         <div className="sub-services">
           <div className="sub-services-left">

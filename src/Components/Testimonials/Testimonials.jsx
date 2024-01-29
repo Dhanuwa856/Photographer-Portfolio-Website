@@ -11,7 +11,7 @@ import TestimonialLink from "../TestimonialLink/TestimonialLink";
 
 const Testimonials = () => {
   return (
-    <div className="container-fluid testimonial">
+    <div className="container-fuild testimonial">
       <div className="container-auto">
         <div className="sub-testimonial">
           <p>Testimonials</p>

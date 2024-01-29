@@ -151,3 +151,29 @@
 .services-content-right img {
   margin-top: 60px;
 }
+
+@media screen and (max-width:600px) {
+  .sub-services-right {
+    display: none;
+  }
+
+  .services-content {
+    flex-direction: column-reverse;
+    padding-bottom: 20px;
+  }
+
+  .services-content-right {
+    width: 100%;
+  }
+
+  .services-content-left {
+    width: 100%;
+  }
+
+  .services-content-left h5 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

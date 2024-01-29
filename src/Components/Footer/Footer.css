@@ -98,3 +98,31 @@
   line-height: 150%;
   /* 21px */
 }
+
+@media screen and (max-width:900px) {
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+}
+
+@media screen and (max-width:600px) {
+  .footer .container-auto {
+    flex-direction: column;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+}
+
+@media screen and (max-width:410px) {
+  .copy-right {
+    text-align: center;
+  }
+}
